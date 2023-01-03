@@ -1,0 +1,18 @@
+:host {
+  display: flex;
+  flex-direction: column;
+
+  main {
+    display: flex;
+    border-bottom: 1px solid black;
+
+    app-products {
+      flex: 1;
+    }
+
+    app-cart {
+      width: 400px;
+    }
+  }
+
+}

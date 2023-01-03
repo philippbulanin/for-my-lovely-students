@@ -1,0 +1,3 @@
+<div class="name">{{product?.name}}</div>
+<div class="price">{{ product?.price }}</div>
+<button (click)="addToCart.emit(product)">{{ buttonLabel$ | async }}</button>

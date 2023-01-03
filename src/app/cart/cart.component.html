@@ -1,0 +1,6 @@
+<div *ngFor="let product of cartService.products$ | async">
+  {{ product.name }}
+  <button (click)="removeFromCart(product.id)">X</button>
+</div>
+
+<div>Total: {{ cartService.total$ | async }}</div>

@@ -1,0 +1,23 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 20px;
+  height: 800px;
+  overflow: auto;
+
+  div {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+
+    button {
+      border: none;
+      cursor: pointer;
+      background-color: red;
+      width: 22px;
+      height: 22px;
+      color: white;
+    }
+  }
+}
